@@ -7,6 +7,7 @@ import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import EmailPopup from "@/components/EmailPopup";
+import AbandonedCartBanner from "@/components/AbandonedCartBanner";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       </main>
       <Footer />
       <EmailPopup />
+      <AbandonedCartBanner />
     </>
   );
 }
